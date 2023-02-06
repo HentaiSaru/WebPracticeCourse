@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    background-image: var(--我的背景圖);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color:aquamarine;
+    font-size: 10rem;
+}
+
+p {
+    font-size: 100px;
+}
+
+.Colorchange {
+    animation: change 3s linear 0s infinite;    
+    text-shadow: 3px 5px 4px rgba(255, 0, 0, 0.7);
+}
+
+@keyframes change {
+    0% {
+        color: rgba(225, 0, 255, 0.7);
+    }
+    25% {
+        color: rgba(255, 72, 0, 0.7);
+    }
+    50% {
+        color: rgba(253, 217, 9, 0.7);
+    }
+    75% {
+        color: rgba(0, 25, 253, 0.7);
+    }
+    100% {
+        color: rgba(17, 255, 0, 0.7);
+    }
+}
